@@ -1,0 +1,59 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# CMake, Ninja, and compiled output
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.ninja
+*.ninja_deps
+*.ninja_log
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+
+# Downloaded/generated models, datasets, and local emulation tools
+models/
+data/
+tools/
+*.onnx
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+
+# Development backup files
+*.orig
+*.rej
